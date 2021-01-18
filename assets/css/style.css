@@ -1,0 +1,65 @@
+header {
+    background-color: rgb(17, 70, 247);
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+} 
+
+.row {
+    margin-bottom: 20px;
+}
+
+.info {
+    float: left;
+    clear: both;
+}
+
+.days {
+    width: 20vw;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+#card {
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 10px;
+}
+.tempFont {
+    font-size: 14px;
+}
+
+.col-md-4 {
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+}
+
+.floats {
+    display: inline-block;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.centerme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

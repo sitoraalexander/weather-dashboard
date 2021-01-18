@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station</title>
+    <link href="./assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    
+</head>
+<body>
+    <!-- header -->
+    <header class="rounded">
+        <h1> Weather Station</h1>
+    </header>
+    <br>
+    <div class="container">
+    
+        <div class="row">
+            <!-- input field for city name -->
+            <div class="col col-md-4">
+                <h4>Search for a city:</h4>
+                <input id="input1" placeholder="Enter city name"/> 
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+                <br>
+                <!-- list of recently searched cities -->
+                <div>
+                    <br>
+                    <h8>Recently searched cities:</h8>
+                    <form id="searchedCities" class="list-group">
+                    <!-- searched cities will be prepended here -->
+                    </form>
+                </div>
+            </div>
+
+            <div class="col col-md-8">
+                <!-- display today's weather -->
+                <div id="today" class="row">
+                    <div class="col col-md-12" id="card">
+                        <br>
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <div class="row">
+                                    <h4 class="city floats"></h4>
+                                    <h4 class="date floats"></h4>
+                                    <img class="icon"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- temperature -->
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <p class="info temp"></p>
+                            </div>
+                        </div>
+                        <!-- humidity -->
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <p class="info humidity"></p>
+                            </div>
+                        </div>
+                        <!-- wind -->
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <p class="info wind"></p>
+                            </div>
+                        </div>
+                        <!-- uv index -->
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <p class="info uv"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- display weather for the next 5 days -->
+                    <div class="row hidden">
+                        <div class="col col-md-12">
+                            <br>
+                            <h4> 5-Day Forecast:</h4>
+                        </div>
+                    </div>
+                    <div class="row hidden">
+                        <div class="col bg-primary text-white ml-3 mb-3 rounded future"></div>
+                        <div class="col bg-primary text-white ml-3 mb-3 rounded future"></div>
+                        <div class="col bg-primary text-white ml-3 mb-3 rounded future"></div>
+                        <div class="col bg-primary text-white ml-3 mb-3 rounded future"></div>
+                        <div class="col bg-primary text-white ml-3 mb-3 rounded future"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
