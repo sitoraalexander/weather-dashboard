@@ -12,9 +12,9 @@ OpenWeather API (https://openweathermap.org/api) is used to retrieve weather dat
 
 ## Review: 
 
-* URL of the deployed application.
+* URL of the deployed application: https://sitoraalexander.github.io/weather-dashboard/
 
-* The URL of the GitHub repository.
+* The URL of the GitHub repository: https://github.com/sitoraalexander/weather-dashboard
 
 ## How it works:
 
