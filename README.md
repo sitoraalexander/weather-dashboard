@@ -1,8 +1,13 @@
-# HW 6: Server-Side APIs: Weather Dashboard
-This is your weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+## Weather Dashboard
 
-## Check out the URL of the deployed application here: 
-https://sitoraalexander.github.io/weather-dashboard/
+Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. 
 
-## Here is the URL of the GitHub repository: 
-https://github.com/sitoraalexander/weather-dashboard
+## Challenge:
+
+The challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+
+## API:
+
+OpenWeather API (https://openweathermap.org/api) is used to retrieve weather data for cities. 
+
+## Review: 
