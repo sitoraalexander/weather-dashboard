@@ -31,6 +31,4 @@ OpenWeather API (https://openweathermap.org/api) is used to retrieve weather dat
 * When you open the weather dashboard
 * You are presented with the last searched city forecast
 
-## Screenshots:
-
 ## Enjoy :) 
